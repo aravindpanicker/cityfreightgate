@@ -1,0 +1,14 @@
+{
+    "autoload": {
+        "classmap": [
+            "./"
+        ],
+        "files": ["core/helpers.php"]
+    },
+    "require": {
+        "ext-pdo": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "ext-ctype": "*"
+    }
+}
